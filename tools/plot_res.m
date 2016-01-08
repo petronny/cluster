@@ -1,7 +1,6 @@
-inputfile=input('Input the inputfile:');
-data=load(inputfile);
-%resultfile=input('Input the file storing clustering reslut:');
-resultfile=[inputfile '.result'];
+function plot_res(infile)
+data=load(infile);
+resultfile=[infile '.result'];
 res=load(resultfile);
 index=unique(res(:,2));
 halo=res(:,3);
