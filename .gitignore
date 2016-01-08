@@ -1,0 +1,6 @@
+*.o
+*.centers
+*.result
+*.decisiongraph
+.*
+cluster
